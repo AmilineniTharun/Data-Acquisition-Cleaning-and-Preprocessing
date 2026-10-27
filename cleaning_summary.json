@@ -1,0 +1,65 @@
+{
+  "source_url": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv",
+  "initial_shape": [
+    891,
+    15
+  ],
+  "final_shape": [
+    891,
+    15
+  ],
+  "duplicates_before": 107,
+  "duplicates_after": 110,
+  "missing_before": {
+    "survived": 0,
+    "pclass": 0,
+    "sex": 0,
+    "age": 177,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0,
+    "embarked": 2,
+    "class": 0,
+    "who": 0,
+    "adult_male": 0,
+    "deck": 688,
+    "embark_town": 2,
+    "alive": 0,
+    "alone": 0
+  },
+  "missing_after": {
+    "survived": 0,
+    "pclass": 0,
+    "sex": 0,
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0,
+    "embarked": 0,
+    "class": 0,
+    "who": 0,
+    "adult_male": 0,
+    "deck": 0,
+    "embark_town": 0,
+    "alive": 0,
+    "alone": 0
+  },
+  "outlier_summary": {
+    "age": {
+      "q1": 22.0,
+      "q3": 35.0,
+      "iqr": 13.0,
+      "lower_fence": 2.5,
+      "upper_fence": 54.5,
+      "flagged_count": 66
+    },
+    "fare": {
+      "q1": 7.9104,
+      "q3": 31.0,
+      "iqr": 23.0896,
+      "lower_fence": -26.724,
+      "upper_fence": 65.6344,
+      "flagged_count": 116
+    }
+  }
+}
